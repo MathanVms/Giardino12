@@ -1,0 +1,295 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-nav {
+    background-color: pink;
+    color: black;
+    justify-content: space-around;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav label {
+    font-size: 25px;
+    margin-right: 1050px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.side-nav {
+    background-color: rgb(127, 28, 69);
+    height: 100vh;
+    width: 400px;
+    position: fixed;
+    margin-left: -500px;
+    transition: margin-left 0.4s ease;
+    padding: 20px;
+}
+
+.side-nav ul {
+    margin-top: 60px;
+    padding-left: 0;
+}
+
+.side-nav ul li {
+    color: white;
+    list-style: none;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.close-icon {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.container{
+    box-sizing: border-box;
+    height: 300px;
+    background-color: pink;
+    color: black;
+}
+.container h3{
+    text-align: center;
+    padding-top: 60px;
+}
+.container h1{
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+}
+.container  pre{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.container1{
+    box-sizing: border-box;
+    height: 600px;
+    background-color: pink;
+}
+.container1 img{
+    width: 400px;
+    height: 450px;
+    margin-top: 80px;
+}
+.container1 .one{
+    width: 760px;
+    height: 600px;
+    float: left;
+    text-align: center;
+    border-right: 2px solid black;
+}
+.container1 h2{
+    padding-top: 50px;
+}
+.container1 h1{
+    padding: 15px;
+}
+.container1 pre{
+    font-size: 20px;
+}
+.container1 table{
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    margin-top: 30px;
+}
+.container1 td{
+    padding: 10px;
+    font-size: larger;
+    border: 3px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.container1 button{
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: pink;
+    color: black;
+    border: 2px solid black;
+}
+.container2{
+    box-sizing: border-box;
+    height: 600px;
+    background-color: pink;
+}
+.container2 img{
+    width: 400px;
+    height: 450px;
+    margin-top: 80px;
+}
+.container2 .one{
+    width: 760px;
+    height: 600px;
+    float: left;
+    text-align: center;
+    border-right: 2px solid black;
+}
+.container2 h2{
+    padding-top: 50px;
+}
+.container2 h1{
+    padding: 15px;
+}
+.container2 pre{
+    font-size: 20px;
+}
+.container2 table{
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    margin-top: 30px;
+}
+.container2 td{
+    padding: 10px;
+    font-size: larger;
+    border: 3px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.container2 button{
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: pink;
+    color: black;
+    border: 2px solid black;
+}
+.container3{
+    box-sizing: border-box;
+    height: 600px;
+    background-color: pink;
+}
+.container3 img{
+    width: 400px;
+    height: 450px;
+    margin-top: 80px;
+}
+.container3 .one{
+    width: 760px;
+    height: 600px;
+    float: left;
+    text-align: center;
+    border-right: 2px solid black;
+}
+.container3 h2{
+    padding-top: 50px;
+}
+.container3 h1{
+    padding: 15px;
+}
+.container3 pre{
+    font-size: 20px;
+}
+.container3 table{
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    margin-top: 30px;
+}
+.container3 td{
+    padding: 10px;
+    font-size: larger;
+    border: 3px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.container3 button{
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: pink;
+    color: black;
+    border: 2px solid black;
+}
+.container4{
+    box-sizing: border-box;
+    height: 600px;
+    background-color: pink;
+}
+.container4 img{
+    width: 400px;
+    height: 450px;
+    margin-top: 80px;
+}
+.container4 .one{
+    width: 760px;
+    height: 600px;
+    float: left;
+    text-align: center;
+    border-right: 2px solid black;
+}
+.container4 h2{
+    padding-top: 50px;
+}
+.container4 h1{
+    padding: 15px;
+}
+.container4 pre{
+    font-size: 20px;
+}
+.container4 table{
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    margin-top: 30px;
+}
+.container4 td{
+    padding: 10px;
+    font-size: larger;
+    border: 3px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.container4 button{
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: pink;
+    color: black;
+    border: 2px solid black;
+}
+.foot {
+    background-color: orangered;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    height: 350px;
+ }
+.foot h1 {
+    padding-top: 80px;
+    font-size: 40px;
+}
+.foot h3{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.foot button{
+    margin-top: 20px;
+    width: 200px;
+    background-color: orangered;
+    color: black;
+    height: 30px;
+    border: 2px solid black;
+}

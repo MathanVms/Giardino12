@@ -1,0 +1,14 @@
+<div class="container3">
+        <h4>Premium wines, beers and cocktails</h4>
+        <h1>The good just got better.</h1>
+        <pre>I'm a paragraph. Click here to add your own text and edit me.
+It’s easy. Just click “Edit Text” or double click me to add your
+own content and make changes to the font.</pre>
+    </div>
+
+
+    .container3{
+    height: 300px;
+    width: 500px;
+    background-color: coral;
+}
